@@ -1,0 +1,64 @@
+/* source pro font */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+body {
+	background-color: grey;
+	color: black;
+	font-size: 16px;
+	max-width: 375px;
+	margin: 0 auto;
+}
+header {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding: 15px;
+	background-color: white;
+	border-bottom: 1px solid #c6c6c6;
+}
+.header-logo {
+	width: 127px;
+}
+.header-avatar {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+}
+/*main */
+main {
+	background-color: white;
+}
+#main-header {
+	/*  */
+}
+.avatar-container {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	gap: 10px;
+}
+.avatar-img {
+	border-radius: 50%;
+}
+.post-name {
+	font-weight: 700;
+}
+.icon-container {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+.like-counts {
+	font-weight: bold;
+	margin: 10px 0;
+}
+.footer {
+	padding: 20px 10px;
+}
+.username {
+	font-weight: bold;
+}
