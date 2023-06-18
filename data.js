@@ -1,4 +1,5 @@
-export const posts = [
+import { v4 as uuidv4 } from 'https://jspm.dev/uuid'
+export const instagramData = [
 	{
 		fullName: 'Vincent van Gogh',
 		username: 'vincey1853',
@@ -7,9 +8,11 @@ export const posts = [
 		post: 'images/post-vangogh.png',
 		comment: 'just took a few mushrooms lol',
 		likes: 21492,
+		isLiked: false,
 		like: 'images/like.png',
 		comments: 'images/comment.png',
 		share: 'images/share.png',
+		uuid: uuidv4(),
 	},
 	{
 		fullName: 'Gustave Courbet',
@@ -19,9 +22,11 @@ export const posts = [
 		post: 'images/post-courbet.png',
 		comment: "i'm feelin a bit stressed tbh",
 		likes: 12502,
+		isLiked: false,
 		like: 'images/like.png',
 		comments: 'images/comment.png',
 		share: 'images/share.png',
+		uuid: uuidv4(),
 	},
 	{
 		fullName: 'Joseph Ducreux',
@@ -32,8 +37,10 @@ export const posts = [
 		comment:
 			'gm friends! which coin are YOU stacking up today?? post below and WAGMI!',
 		likes: 15137,
+		isLiked: false,
 		like: 'images/like.png',
 		comments: 'images/comment.png',
 		share: 'images/share.png',
+		uuid: uuidv4(),
 	},
 ]

@@ -32,33 +32,36 @@ header {
 main {
 	background-color: white;
 }
-#main-header {
-	/*  */
-}
-.avatar-container {
+.post-header {
 	display: flex;
 	align-items: center;
-	padding: 10px;
 	gap: 10px;
+	padding: 12px;
+	font-size: 14px;
 }
-.avatar-img {
+.avatar {
 	border-radius: 50%;
 }
-.post-name {
-	font-weight: 700;
-}
-.icon-container {
-	display: flex;
-	align-items: center;
-	gap: 10px;
-}
-.like-counts {
-	font-weight: bold;
-	margin: 10px 0;
-}
-.footer {
-	padding: 20px 10px;
-}
+.fullName,
 .username {
 	font-weight: bold;
+}
+.post-icons {
+	display: flex;
+	gap: 20px;
+}
+.post-footer-container {
+	padding: 12px;
+}
+.post-likes {
+	font-weight: bold;
+	padding: 10px 0px;
+}
+
+i {
+	font-size: 28px;
+}
+
+.liked {
+	color: red;
 }
